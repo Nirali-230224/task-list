@@ -1,0 +1,154 @@
+
+.content {
+    /* margin-left: 15%; */
+    /* margin-right: 15%; */
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+.contentsection {
+    margin-left: 30%;
+    margin-right: 20%;
+}
+table.tasktable {
+    width: 100%;
+    font-size: 19px;
+}
+h1.projecttitle {
+    font-family: sans-serif;
+}
+h1.addnewbutton {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: inherit;
+    font-size: 18px;
+    font-family: sans-serif;
+
+}
+td.listname {
+    font-family: sans-serif;
+    font-size: 16px;
+    padding-top: 7px;
+}
+
+/* add task form */
+
+.addtaskform {
+    width: 50%;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+h1.formtitle {
+    font-size: 23px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.tasknamerow {
+    padding-left: 50px;
+    padding-bottom: 25px;
+}
+input#taskname {
+    height: 25px;
+    width: 80%;
+}
+textarea#tshortdetails {
+    height: 100px;
+    width: 80%;
+}
+textarea#taskdetails {
+    height: 250px;
+    width: 80%;
+}
+.detailsrow {
+    padding-left: 50px;
+    padding-bottom: 25px;
+}
+.daterow {
+    padding-left: 50px;
+    padding-bottom: 25px;
+}
+input#taskdate{
+    height: 25px;
+    width: 85%;
+}
+label.tdetails {
+    padding-left: 51px;
+    font-family: sans-serif;
+}
+label.taskname{
+    font-family: sans-serif;
+}
+input[type="submit"] {
+    width: 120px;
+    height: 40px;
+    background: limegreen;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+}
+.submitbtnrow {
+    padding-left: 50px;
+}
+a#rowlist {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+span.backbtn {
+    border-bottom: 2px solid red;
+}
+.minutesago ul {
+    padding-left: 1px;
+}
+li.minutesago {
+    list-style: none;
+    display: inline-block;
+    padding-right: 40px;
+    padding-top: 20px;
+    color: slategrey;
+}
+span#taskcompleted {
+    color: green;
+}
+span#taskpending {
+    color: red;
+}
+.buttons {
+    padding-top: 30px;
+}
+span.buttonbtn {
+    padding-right: 10px;
+}
+.buttonbtn a {
+    text-decoration: none;
+    color: #000;
+    background: lightgray;
+    border-radius: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 13px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-right: 11px;
+}
+span.backbtn {
+    cursor: pointer;
+}
+#markbutton {
+    text-decoration: none;
+    color: #000;
+    background: lightgray;
+    border-radius: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 13px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-right: 11px;
+    cursor: pointer;
+}
+td#cssonlist {
+    text-decoration: line-through;
+}
